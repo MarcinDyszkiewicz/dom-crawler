@@ -45,7 +45,7 @@ class Crawler implements \Countable, \IteratorAggregate
     /**
      * @var \DOMNode[]
      */
-    private $nodes = [];
+    public $nodes = [];
 
     /**
      * Whether the Crawler contains HTML or XML content (used when converting CSS to XPath).
